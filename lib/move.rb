@@ -16,4 +16,6 @@ def move(board,index,value)
   board[index] = value
   play[board]
 end
+
+update_array_at_with(board, 0,"X")
   
