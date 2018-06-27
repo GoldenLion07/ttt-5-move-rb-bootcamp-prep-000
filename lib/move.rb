@@ -17,4 +17,5 @@ def move(board,index,char)
   play(board)
 end
 
-move(board,index,char)
+move(board,0,"X")
+board
