@@ -13,7 +13,7 @@ def input_to_index(move)
 end
   
 def move(board,index,value)
-  board[index] = value
+  board[index] = "X"
   play(board)
 end
 
