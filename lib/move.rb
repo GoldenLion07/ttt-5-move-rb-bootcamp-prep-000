@@ -12,5 +12,6 @@ def input_to_index(move)
   index
 end
   
-def move()
+def move(board,index,token)
+  
   
