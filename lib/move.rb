@@ -12,10 +12,8 @@ def input_to_index(move)
   index
 end
   
-def move(board,index,char)
+def move(board,index,char="X")
   board[index] = char
   play(board)
 end
 
-move(board,0,"X")
-board
