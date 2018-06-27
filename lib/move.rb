@@ -14,6 +14,6 @@ end
   
 def move(board,index,token)
   board[index] = token
-  board
+  play[board]
 end
   
