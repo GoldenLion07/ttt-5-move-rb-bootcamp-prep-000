@@ -17,3 +17,4 @@ def move(board,index,char)
   play(board)
 end
 
+move(board,index,char)
